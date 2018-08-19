@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-	font-family: "Segoe UI", Helvetica, "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+	font-family: serif;
 	font-weight: normal;
 	font-size: 16px;
 	background-color: #ffffff;
@@ -28,7 +28,7 @@ header h1 {
 	font-size: 2.5em;
 	padding: 20px 0 20px 0;
 	line-height: 1.5em;
-	font-family: "dnp-shuei-gothic-gin-std";
+	font-family: "dnp-shuei-gothic-gin-std", sans-serif;
 }
 
 @media screen and (max-width: 640px) {
@@ -43,6 +43,7 @@ h2 {
 	font-size: 2em;
 	margin-bottom: 20px;
 	color: #c1272d;
+	font-family: "dnp-shuei-gothic-gin-std", sans-serif;
 }
 
 @media screen and (max-width: 640px) {
@@ -155,7 +156,7 @@ p.textat {
 
 strong {
 	color: #c1272d;
-	font-family: "dnp-shuei-gothic-gin-std";
+	font-family: "dnp-shuei-gothic-gin-std", sans-serif;
 }
 
 footer {
