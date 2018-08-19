@@ -84,178 +84,6 @@ h3 {
 	margin: 0 auto;
 }
 
-h4 {
-	text-align: center;
-	color: #333;
-	margin: 20px;
-}
-
-@media screen and (max-width: 640px) {
-	.js-clingify-placeholder {
-		display: none;
-	}
-
-	h3.sp-h3 {
-		height: 64px;
-	}
-}
-
-.box {
-	background-color: #ffffff;
-	margin: 0 auto;
-	z-index: 1;
-	color: #fff;
-	padding-bottom: 20px;
-}
-
-.clearfix:after{
-	content: "";
-	clear: both;
-	display: block;
-}
-
-@media screen and (min-width: 641px) {
-	.box {
-		/*max-width: 1000px;*/
-	}
-
-	.sp-br {
-		display: none;
-	}
-}
-
-#content {
-	max-width: 100%;
-}
-
-p img {
-	max-width: 100%;
-	height: auto;
-}
-
-p.text {
-	padding: 5px 20px 5px 20px;
-	line-height: 1.5em;
-	letter-spacing: 0.1em;
-	color: #333;
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top: 10px;
-	clear: both;
-}
-
-p.textat {
-	padding: 20px;
-	line-height: 1.5em;
-	letter-spacing: 0.1em;
-	color: #333;
-	max-width: 800px;
-	padding-top: 0px;
-	margin: 0 auto;
-}
-
-strong {
-	color: #c1272d;
-	font-family: "dnp-shuei-gothic-gin-std", sans-serif;
-}
-
-footer {
-	min-height: 40px;
-	background-color: #c5a81c;
-	text-align: center;
-	padding-top: 18px;
-}
-
-footer small {
-	font-size: 12px;
-	color: #c1272d;
-}
-
-@media screen and (min-width: 1024px) {
-	.scbtn {
-		padding-bottom: 20px;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.scbtn {
-		padding-bottom: 20px;
-	}
-}
-
-p a {
-	color: #00a29a;
-	text-decoration: none;
-}
-
-p a:hover {
-	color: #00a29a;
-	border-bottom: solid 2px 00a29a;
-}
-
-.emlink {
-	color: #c1272d;
-}
-
-/*.cards {
-	max-width: 800px;
-	margin: 0 auto;
-}
-
-.card {
-	width: 320px;
-  	background: #fff;
-  	border-radius: 5px;
-  	box-shadow: 0 2px 5px #ccc;
-  	margin: 0 auto;
-  	margin-top: 10px;
-  	margin-bottom: 10px;
-}*/
-
-/*.members ul {
-	max-width: 800px;
-	margin: 0 auto;
-	margin-top: 20px;
-}
-
-.listupper {
-	display: flex;
-}
-
-.listupper li {
-	margin-left: 53.3px;
-}
-
-.listupper li:first-child {
-	margin-left: 0;
-}
-
-.listmiddle {
-	display: flex;
-}
-
-.listmiddle li {
-	margin-left: 53.3px;
-}
-
-.listmiddle li:first-child {
-	margin-left: 0;
-}
-
-.listlower {
-	display: flex;
-	margin: 0 auto;
-}
-
-.listlower li {
-	margin-left: 50px;
-}
-
-.listlower li:first-child {
-	margin-left: 130px;
-}
-*/
-
 .ctcontent {
 	margin: 0 auto;
 	margin-top: 40px;
@@ -270,24 +98,62 @@ p a:hover {
 	}
 }
 
-.button {
-	max-width: 240px;
-	height: 60px;
-	background-color: #fff;
-	padding-top: 36px;
-	text-align: center;
-	font-weight: bold;
+#content {
+	max-width: 100%;
 }
 
-.button a {
-	font-size: 24px;
+p.text {
+	padding: 5px 20px 5px 20px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
 	color: #333;
+	max-width: 800px;
+	margin: 0 auto;
+	margin-top: 10px;
+	clear: both;
+}
+
+p.last {
+	margin-bottom: 20px;
+}
+
+p a {
+	color: #0071bc;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: #0071bc;
+	border-bottom: solid 2px #0071bc;
+}
+
+p img {
+	max-width: 100%;
+	height: auto;
+}
+
+strong {
+	color: #c1272d;
+	font-family: "dnp-shuei-gothic-gin-std", sans-serif;
+}
+
+footer {
+	min-height: 40px;
+	background-color: #c1272d;
+	text-align: center;
+	padding-top: 18px;
+}
+
+footer small {
+	font-size: 12px;
+	color: #fff;
 }
 
 .scbtn {
 	position: relative;
 	overflow: hidden;
 	margin-top: 10px;
+	padding-bottom: 10px;
 }
 
 .scbtn ul {
@@ -307,241 +173,36 @@ p a:hover {
 }
 
 .pagetop {
-    position: fixed;
-    bottom: 30px;
-    right: 15px;
-    z-index: 10000;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  z-index: 10000;
 }
 
 .pagetop a {
-    display: block;
-    background-color: #ccc;
-    text-align: center;
-    color: #222;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 20px 20px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
-    z-index: 10000;
+	display: block;
+	background-color: #ccc;
+	text-align: center;
+	color: #222;
+	font-size: 12px;
+	text-decoration: none;
+	padding: 20px 20px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	z-index: 10000;
 }
 
 .pagetop a:hover {
-    display: block;
-    background-color: #c5a81c;
-    text-align: center;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-    padding: 20px 20px;
-	filter:alpha(opacity=50);
-    -moz-opacity: 0.5;
-    opacity: 0.5;
-    z-index: 10000;
-}
-
-/* yugo */
-.qanda {
-	margin: 0 auto;
-	color: #333;
-	background-color: white;
-	border: solid 2px #c1272d;
-	font-family: "Segoe UI", Helvetica, "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
-	font-size: 28px;
-	transition: 0.5s;
-}
-
-.qanda:hover {
-	background-color: #c1272d;
-}
-
-.qanda:hover a {
+	display: block;
+	background-color: #c5a81c;
+	text-align: center;
 	color: #fff;
-}
-
-.qanda a{
+	font-size: 12px;
 	text-decoration: none;
-	color: #333;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-align-items: center; /* 縦方向中央揃え（Safari用） */
-	align-items: center; /* 縦方向中央揃え */
-	-webkit-justify-content: center; /* 横方向中央揃え（Safari用） */
-	justify-content: center; /* 横方向中央揃え */
-	height: 56px;
-}
-
-.card{
- 	width: 31%;
- 	background: #fff;
- 	border-radius: 5px;
- 	box-shadow: 0 2px 5px #ccc;
-	float: left;
-	margin-right: 2%;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-@media screen and (max-width: 880px) {
-	.card {
-		width: 47%;
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.card {
-		width: 100%;
-	}
-}
-
-.card-img {
- 	border-radius: 5px 5px 0 0;
- 	max-width: 100%;
- 	height: auto;
-}
-
-.card-content {
- 	padding: 20px;
-}
-
-.card-title {
- 	font-size: 20px;
- 	margin-bottom: 20px;
- 	text-align: center;
- 	color: #333;
-}
-
-.card-title a {
-	color: #c1272d;
-	text-decoration: none;
-}
-
-.card-title a:hover {
-	color: #c5a81c;
-	text-decoration: none;
-	transition: 0.5s;
-}
-
-.card-text {
- 	color: #777;
- 	font-size: 14px;
- 	line-height: 1.5;
-	text-align: center;
-}
-
-.odd {
-	float: left;
-	width: 40%;
-}
-
-.even {
-	float: right;
-	width: 40%;
-}
-
-.staffpics {
-	width:50%;
-	padding-bottom: 20px;
-}
-
-.nopadding {
-	margin-bottom: -60px;
-}
-
-.qainfo {
-	max-width: 1000px;
-	margin: 0 auto;
-	margin-top: 40px;
-	margin-bottom: 40px;
-}
-
-.qainfo h3 {
-	font-size: 24px;
-	font-weight: bold;
-	background-color: #84e8d4;
-	height: 40px;
-	padding-top: 16px;
-	color: #333;
-	padding-left: 5px;
-	margin-top: 10px;
-	text-align: center;
-}
-
-.qainfo h3 a:hover {
-	cursor: pointer;
-	color: #ed1e79;
-}
-
-.qacontent {
-	padding-top: 10px;
-	background-color: #fff;
-	margin-bottom: 10px;
-	display: none;
-}
-
-.qacontent p {
-	color: #333;
-}
-
-.qacontent a {
-	color: #333;
-	border-bottom: solid 2px #333;
-}
-
-.qacontent a:hover {
-	color: #ed1e79;
-	border-bottom: solid 2px #ed1e79;
-}
-
-@media screen and (max-width: 840px) {
-	.qainfo h3 {
-		font-size: 24px;
-		font-weight: bold;
-		background-color: #84e8d4;
-		height: 40px;
-		padding-top: 16px;
-		color: #333;
-		padding-left: 5px;
-		margin: 0 auto;
-		margin-top: 10px;
-		text-align: center;
-		width: 90%;
-	}
-
-	.qacontent {
-		margin: 0 auto;
-		padding-top: 10px;
-		background-color: #fff;
-		margin-bottom: 10px;
-		display: none;
-		width: 90%;
-	}
-}
-
-/* ryohei */
-
-/*.odd {
-	float: left;
-	width: 40%;
-}
-
-.even {
-	float: right;
-	width: 40%;
-}
-
-.staffpics {
-	width:50%;
-	padding-bottom: 20px;
-}
-
-.nopadding {
-	margin-bottom: -60px;
-}*/
-
-/* ここから追加ryohei */
-.padding {
-	margin-top: 1950px;
-	margin-bottom: -60px;
+	padding: 20px 20px;
+	filter: alpha(opacity=50);
+	-moz-opacity: 0.5;
+	opacity: 0.5;
+	z-index: 10000;
 }
